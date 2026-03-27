@@ -40,13 +40,13 @@ public class CourseMapper
     {
         var dto = request.ToDto();
         var result = await _courseService.UpdateAsync(id, dto);
-        return result?.ToResponse();
+        return result.ToResponse();
     }
 
     public async Task<CourseResponse> DeleteAsync(Guid id)
     {
         var result = await _courseService.DeleteAsync(id);
-        return result?.ToResponse();
+        return result.ToResponse();
     }
 
     public async Task<PaginatedResponse<CourseWithEnrollmentsResponse>> GetPaged(PaginateRequest request)
@@ -55,7 +55,4 @@ public class CourseMapper
         return result.ToPaginatedResponse();
     }
 
-
-
-    
 }

@@ -5,7 +5,7 @@ namespace Web.Extensions;
 
 public static class EnrollmentMappingExtensions
 {
-    public static EnrollmentResponse? ToResponse(this Enrollment e)
+    public static EnrollmentResponse ToResponse(this Enrollment e)
     {
         return new EnrollmentResponse(
             e.Id,

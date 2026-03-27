@@ -7,7 +7,7 @@ namespace Web.Extensions;
 
 public static class CourseMappingExtensions
 {
-    public static CourseResponse? ToResponse(this Course c)
+    public static CourseResponse ToResponse(this Course c)
     {
         return new CourseResponse(
             c.Id,
@@ -20,7 +20,7 @@ public static class CourseMappingExtensions
         );
     }
     
-    public static CourseWithEnrollmentsResponse? ToCourseWithEnrollmentsResponse(this Course c)
+    public static CourseWithEnrollmentsResponse ToCourseWithEnrollmentsResponse(this Course c)
     {
         return new CourseWithEnrollmentsResponse(
             c.Id,

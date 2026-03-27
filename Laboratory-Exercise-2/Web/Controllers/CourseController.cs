@@ -35,12 +35,7 @@ public class CourseController : ControllerBase
     public async Task<IActionResult> GetAllByCategory([FromQuery] string category)
     {
         var result = await _courseMapper.GetAll(category);
-
-        if (result == null)
-        {
-            return NotFound();
-        }
-
+        
         return Ok(result);
     }
     

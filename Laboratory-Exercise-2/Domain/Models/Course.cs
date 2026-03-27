@@ -5,8 +5,8 @@ namespace Domain.Models;
 
 public class Course : BaseEntity
 {
-    public required String? Title { get; set; }
-    public required String? Description { get; set; }
+    public required string Title { get; set; }
+    public required string Description { get; set; }
     public int Ects { get; set; }
     public Category Category { get; set; }
     
