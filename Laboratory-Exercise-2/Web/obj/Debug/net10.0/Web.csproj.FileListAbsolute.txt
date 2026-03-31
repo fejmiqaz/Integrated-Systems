@@ -286,3 +286,7 @@ C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-2\Web\obj\Deb
 C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-2\Web\obj\Debug\net10.0\Web.pdb
 C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-2\Web\obj\Debug\net10.0\Web.genruntimeconfig.cache
 C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-2\Web\obj\Debug\net10.0\ref\Web.dll
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-2\Web\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-2\Web\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-2\Web\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-2\Web\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll

@@ -4,6 +4,12 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Repository;
+using Repository.Implementation;
+using Repository.Interface;
+using Service.Implementation;
+using Service.Interface;
+using Web.Mapper;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -16,6 +22,11 @@ builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddDefaultIdentity<CoursesApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
+
+// Swagger NuGet package for testing
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 try
 {
@@ -37,7 +48,20 @@ catch (Exception ex)
     throw;
 }
 
+// ------------------ Dependency injections ---------------------
+
+builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
+
+builder.Services.AddScoped<ICourseService, CourseService>();
+
+builder.Services.AddScoped<CourseMapper>();
+
 var app = builder.Build();
+
+// --------------- Swagger NuGet package for testing -------------
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -65,5 +89,7 @@ app.MapControllerRoute(
 
 app.MapRazorPages()
     .WithStaticAssets();
+
+
 
 app.Run();
