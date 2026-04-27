@@ -20,6 +20,14 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(connectionString);
     options.UseLazyLoadingProxies();
 });
+
+// Legacy App Db Context
+builder.Services.AddDbContext<LegacyApplicationDbContext>(options =>
+    options.UseSqlite(
+        builder.Configuration
+            .GetConnectionString("LegacySemesterDb")));
+
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<CoursesApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
@@ -31,8 +39,8 @@ builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 // ETL REPOSITORIES
 builder.Services.AddScoped<ICourseRepository, CourseRepository>();
 builder.Services.AddScoped<ISemesterRepository, SemesterRepository>();
-builder.Services.AddScoped<ILegacySubjectCatalogRepository>();
-builder.Services.AddScoped<ILegacyAcademicPeriodsRepository>();
+builder.Services.AddScoped<ILegacySubjectCatalogRepository, LegacySubjectCatalogRepository>();
+builder.Services.AddScoped<ILegacyAcademicPeriodsRepository, LegacyAcademicPeriodsRepository>();
 
 builder.Services.AddScoped<ICourseService, CourseService>();
 builder.Services.AddScoped<ISemesterService, SemesterService>();

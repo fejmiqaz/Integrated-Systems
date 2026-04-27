@@ -17,5 +17,7 @@ public class ApplicationDbContext : IdentityDbContext
     public DbSet<Enrollment> Enrollments { get; set; }
     public DbSet<Teaching> Teachings { get; set; }
     public DbSet<ExamSlot> ExamSlots { get; set; }
+    
+    public DbSet<EtlSyncLog> EtlSyncLogs { get; set; }
 
 }

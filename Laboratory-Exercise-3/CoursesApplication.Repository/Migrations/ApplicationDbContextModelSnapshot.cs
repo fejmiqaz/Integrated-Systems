@@ -15,7 +15,7 @@ namespace CoursesApplication.Repository.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "9.0.7");
+            modelBuilder.HasAnnotation("ProductVersion", "9.0.9");
 
             modelBuilder.Entity("CoursesApplication.Domain.Models.Course", b =>
                 {
@@ -69,6 +69,9 @@ namespace CoursesApplication.Repository.Migrations
                     b.Property<DateTime>("EnrolledAt")
                         .HasColumnType("TEXT");
 
+                    b.Property<bool>("IsPayed")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("LastModifiedById")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -84,6 +87,78 @@ namespace CoursesApplication.Repository.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Enrollments");
+                });
+
+            modelBuilder.Entity("CoursesApplication.Domain.Models.EtlSyncLog", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime?>("CompletedAt")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ErrorMessage")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("JobName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("StartedAt")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("Success")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("EtlSyncLogs");
+                });
+
+            modelBuilder.Entity("CoursesApplication.Domain.Models.ExamSlot", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Capacity")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<Guid>("CourseId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CreatedById")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime?>("DateLastModified")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("LastModifiedById")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Location")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("ScheduledAt")
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid>("SemesterId")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CourseId");
+
+                    b.HasIndex("SemesterId");
+
+                    b.ToTable("ExamSlots");
                 });
 
             modelBuilder.Entity("CoursesApplication.Domain.Models.Semester", b =>
@@ -398,6 +473,25 @@ namespace CoursesApplication.Repository.Migrations
                     b.Navigation("Course");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("CoursesApplication.Domain.Models.ExamSlot", b =>
+                {
+                    b.HasOne("CoursesApplication.Domain.Models.Course", "Course")
+                        .WithMany()
+                        .HasForeignKey("CourseId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CoursesApplication.Domain.Models.Semester", "Semester")
+                        .WithMany()
+                        .HasForeignKey("SemesterId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Course");
+
+                    b.Navigation("Semester");
                 });
 
             modelBuilder.Entity("CoursesApplication.Domain.Models.Teaching", b =>
