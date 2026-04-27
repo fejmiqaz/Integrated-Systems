@@ -1,0 +1,76 @@
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.csproj.AssemblyReference.cache
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.AssemblyInfoInputs.cache
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.AssemblyInfo.cs
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.csproj.CoreCompileInputs.cache
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Repository.deps.json
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Repository.dll
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Repository.pdb
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Domain.dll
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Domain.pdb
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesA.C84A8C5B.Up2Date
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.dll
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/refint/CoursesApplication.Repository.dll
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.pdb
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/ref/CoursesApplication.Repository.dll
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Repository.deps.json
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Repository.dll
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Repository.pdb
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Domain.dll
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Domain.pdb
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.csproj.AssemblyReference.cache
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.AssemblyInfoInputs.cache
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.AssemblyInfo.cs
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.csproj.CoreCompileInputs.cache
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesA.C84A8C5B.Up2Date
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.dll
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/refint/CoursesApplication.Repository.dll
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.pdb
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/ref/CoursesApplication.Repository.dll
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Repository.deps.json
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Repository.dll
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Repository.pdb
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Domain.dll
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Domain.pdb
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.csproj.AssemblyReference.cache
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.AssemblyInfoInputs.cache
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.AssemblyInfo.cs
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.csproj.CoreCompileInputs.cache
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesA.C84A8C5B.Up2Date
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.dll
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/refint/CoursesApplication.Repository.dll
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.pdb
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/ref/CoursesApplication.Repository.dll
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Repository.deps.json
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Repository.dll
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Repository.pdb
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Domain.dll
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Repository/bin/Debug/net9.0/CoursesApplication.Domain.pdb
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.csproj.AssemblyReference.cache
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.AssemblyInfoInputs.cache
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.AssemblyInfo.cs
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.csproj.CoreCompileInputs.cache
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesA.C84A8C5B.Up2Date
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.dll
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/refint/CoursesApplication.Repository.dll
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/CoursesApplication.Repository.pdb
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Repository/obj/Debug/net9.0/ref/CoursesApplication.Repository.dll
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\bin\Debug\net9.0\CoursesApplication.Repository.deps.json
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\bin\Debug\net9.0\CoursesApplication.Repository.dll
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\bin\Debug\net9.0\CoursesApplication.Repository.pdb
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\bin\Debug\net9.0\CoursesApplication.Domain.dll
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\bin\Debug\net9.0\CoursesApplication.Domain.pdb
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\obj\Debug\net9.0\CoursesApplication.Repository.csproj.AssemblyReference.cache
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\obj\Debug\net9.0\CoursesApplication.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\obj\Debug\net9.0\CoursesApplication.Repository.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\obj\Debug\net9.0\CoursesApplication.Repository.AssemblyInfo.cs
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\obj\Debug\net9.0\CoursesApplication.Repository.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\obj\Debug\net9.0\CoursesApplication.Repository.sourcelink.json
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\obj\Debug\net9.0\CoursesA.C84A8C5B.Up2Date
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\obj\Debug\net9.0\CoursesApplication.Repository.dll
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\obj\Debug\net9.0\refint\CoursesApplication.Repository.dll
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\obj\Debug\net9.0\CoursesApplication.Repository.pdb
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Repository\obj\Debug\net9.0\ref\CoursesApplication.Repository.dll

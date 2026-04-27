@@ -1,0 +1,61 @@
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Domain/bin/Debug/net9.0/CoursesApplication.Domain.deps.json
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Domain/bin/Debug/net9.0/CoursesApplication.Domain.dll
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Domain/bin/Debug/net9.0/CoursesApplication.Domain.pdb
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.csproj.AssemblyReference.cache
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.AssemblyInfoInputs.cache
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.AssemblyInfo.cs
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.csproj.CoreCompileInputs.cache
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.dll
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/refint/CoursesApplication.Domain.dll
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.pdb
+C:/Users/Jovana/RiderProjects/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/ref/CoursesApplication.Domain.dll
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Domain/bin/Debug/net9.0/CoursesApplication.Domain.deps.json
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Domain/bin/Debug/net9.0/CoursesApplication.Domain.dll
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Domain/bin/Debug/net9.0/CoursesApplication.Domain.pdb
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.csproj.AssemblyReference.cache
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.AssemblyInfoInputs.cache
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.AssemblyInfo.cs
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.csproj.CoreCompileInputs.cache
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.dll
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/refint/CoursesApplication.Domain.dll
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.pdb
+C:/Users/Jovana/Downloads/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/ref/CoursesApplication.Domain.dll
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Domain/bin/Debug/net9.0/CoursesApplication.Domain.deps.json
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Domain/bin/Debug/net9.0/CoursesApplication.Domain.dll
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Domain/bin/Debug/net9.0/CoursesApplication.Domain.pdb
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.csproj.AssemblyReference.cache
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.AssemblyInfoInputs.cache
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.AssemblyInfo.cs
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.csproj.CoreCompileInputs.cache
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.dll
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/refint/CoursesApplication.Domain.dll
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.pdb
+C:/Users/Jovana/Desktop/CoursesApplication/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/ref/CoursesApplication.Domain.dll
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Domain/bin/Debug/net9.0/CoursesApplication.Domain.deps.json
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Domain/bin/Debug/net9.0/CoursesApplication.Domain.dll
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Domain/bin/Debug/net9.0/CoursesApplication.Domain.pdb
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.csproj.AssemblyReference.cache
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.AssemblyInfoInputs.cache
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.AssemblyInfo.cs
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.csproj.CoreCompileInputs.cache
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.dll
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/refint/CoursesApplication.Domain.dll
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/CoursesApplication.Domain.pdb
+/Users/david.arsov/Downloads/CoursesApplication 7/CoursesApplication/CoursesApplication.Domain/obj/Debug/net9.0/ref/CoursesApplication.Domain.dll
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Domain\bin\Debug\net9.0\CoursesApplication.Domain.deps.json
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Domain\bin\Debug\net9.0\CoursesApplication.Domain.dll
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Domain\bin\Debug\net9.0\CoursesApplication.Domain.pdb
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Domain\obj\Debug\net9.0\CoursesApplication.Domain.csproj.AssemblyReference.cache
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Domain\obj\Debug\net9.0\CoursesApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Domain\obj\Debug\net9.0\CoursesApplication.Domain.AssemblyInfoInputs.cache
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Domain\obj\Debug\net9.0\CoursesApplication.Domain.AssemblyInfo.cs
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Domain\obj\Debug\net9.0\CoursesApplication.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Domain\obj\Debug\net9.0\CoursesApplication.Domain.sourcelink.json
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Domain\obj\Debug\net9.0\CoursesApplication.Domain.dll
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Domain\obj\Debug\net9.0\refint\CoursesApplication.Domain.dll
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Domain\obj\Debug\net9.0\CoursesApplication.Domain.pdb
+C:\Users\User\RiderProjects\Integrated-Systems\Laboratory-Exercise-3\CoursesApplication.Domain\obj\Debug\net9.0\ref\CoursesApplication.Domain.dll
