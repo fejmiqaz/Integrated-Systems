@@ -28,17 +28,30 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
+// ETL REPOSITORIES
+builder.Services.AddScoped<ICourseRepository, CourseRepository>();
+builder.Services.AddScoped<ISemesterRepository, SemesterRepository>();
+builder.Services.AddScoped<ILegacySubjectCatalogRepository>();
+builder.Services.AddScoped<ILegacyAcademicPeriodsRepository>();
+
 builder.Services.AddScoped<ICourseService, CourseService>();
 builder.Services.AddScoped<ISemesterService, SemesterService>();
 builder.Services.AddScoped<IEnrollmentService, EnrollmentService>();
 builder.Services.AddScoped<ITeachingService, TeachingService>();
 builder.Services.AddScoped<IExamSlotService, ExamSlotService>();
 
+// ETL Service
+builder.Services.AddScoped<ETLService>();
+
 builder.Services.AddScoped<CourseMapper>();
 builder.Services.AddScoped<SemesterMapper>();
 builder.Services.AddScoped<EnrollmentMapper>();
 builder.Services.AddScoped<TeachingMapper>();
 builder.Services.AddScoped<ExamSlotMapper>();
+
+// ETL DB CONTEXT
+
+builder.Services.AddHostedService<LegacyDbETLBackgroundService>();
 
 // QUARTZ JOB ------------------------------------------------------------------------------------
 builder.Services.AddQuartz(options =>
