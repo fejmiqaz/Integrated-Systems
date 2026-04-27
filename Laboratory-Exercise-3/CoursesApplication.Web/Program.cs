@@ -49,8 +49,7 @@ builder.Services.AddScoped<EnrollmentMapper>();
 builder.Services.AddScoped<TeachingMapper>();
 builder.Services.AddScoped<ExamSlotMapper>();
 
-// ETL DB CONTEXT
-
+// ETL Background Service Hosted
 builder.Services.AddHostedService<LegacyDbETLBackgroundService>();
 
 // QUARTZ JOB ------------------------------------------------------------------------------------
