@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Quartz;
 using Repository;
 using Repository.Implementation;
 using Repository.Interface;
@@ -28,6 +29,14 @@ builder.Services.AddDbContext<ApplicationDbContext>((sp, options) =>
     options.UseLazyLoadingProxies();
     options.AddInterceptors(sp.GetRequiredService<AuditInterceptor>());
 });
+
+// LEGACY DB Connection
+
+builder.Services.AddDbContext<LegacyRoomDbContext>(options =>
+    options.UseSqlite(
+        builder.Configuration
+            .GetConnectionString(("LegacyDb")
+                )));
 
 builder.Services.AddIdentity<ConsultationsApplicationUser, IdentityRole>(options =>
     {
@@ -94,11 +103,20 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
+// Legacy Repositories
+builder.Services.AddScoped<ILegacyRoomRepository, LegacyRoomRepository>();
+builder.Services.AddScoped<IRoomDirectoryRepository, RoomDirectoryRepository>();
+builder.Services.AddScoped<IConsultationSlotRepository, ConsultationSlotRepository>();
+
+
 builder.Services.AddScoped<ICurrentUserService, CurrentUserService>();
 builder.Services.AddScoped<IConsultationService, ConsultationService>();
 builder.Services.AddScoped<IAttendanceService, AttendanceService>();
 builder.Services.AddScoped<IRoomService, RoomService>();
 builder.Services.AddScoped<IHoldsService, HoldsService>();
+
+// ETL Service
+builder.Services.AddScoped<RoomEtlService>();
 
 // Background Service
 builder.Services.AddHostedService<DeleteAttendanceBackgroundService>();
@@ -108,6 +126,28 @@ builder.Services.AddScoped<AttendanceMapper>();
 builder.Services.AddScoped<RoomMapper>();
 builder.Services.AddScoped<HoldsMapper>();
 
+// ETL Using Quartz
+
+builder.Services.AddQuartz(options =>
+{
+    var jobKey = new JobKey("room-etl-service", "maintenance");
+    options.AddJob<RoomEtlService>(o => o.WithIdentity(jobKey));
+
+    options.AddTrigger(o =>
+    {
+        o.ForJob(jobKey)
+            .WithIdentity("room-etl-service-trigger")
+            .WithCronSchedule("0 0/1 * * * ?")
+            .WithDescription("Sync data");
+    });
+});
+
+builder.Services.AddQuartzHostedService(options =>
+{
+    options.WaitForJobsToComplete = true;
+});
+
+// ETL Using Quartz
 
 
 
