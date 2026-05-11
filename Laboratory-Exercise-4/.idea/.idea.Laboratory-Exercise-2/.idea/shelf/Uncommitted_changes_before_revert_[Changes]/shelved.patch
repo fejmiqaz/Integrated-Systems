@@ -1,0 +1,22 @@
+Index: Web/appsettings.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\r\n  \"ConnectionStrings\": {\r\n    \"DefaultConnection\": \"DataSource=app.db;Cache=Shared\"\r\n  },\r\n  \"Logging\": {\r\n    \"LogLevel\": {\r\n      \"Default\": \"Information\",\r\n      \"Microsoft.AspNetCore\": \"Warning\"\r\n    }\r\n  },\r\n  \"QuestionSystem\": {\r\n    \"BaseAddress\": \"https://integriranisistemi.finki.ukim.mk/\",\r\n    \"ApiKey\": \"gSAOEjaqdZW3MhlJL4miLerblYwlpq9W\",\r\n    \"TimeoutSeconds\": 30,\r\n    \"CacheDurationMinutes\": 60\r\n  },\r\n  \"AllowedHosts\": \"*\"\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Web/appsettings.json b/Web/appsettings.json
+--- a/Web/appsettings.json	(revision c66f01c583047de549d3a4b16636dd6fdad043bf)
++++ b/Web/appsettings.json	(date 1778521487821)
+@@ -8,11 +8,5 @@
+       "Microsoft.AspNetCore": "Warning"
+     }
+   },
+-  "QuestionSystem": {
+-    "BaseAddress": "https://integriranisistemi.finki.ukim.mk/",
+-    "ApiKey": "gSAOEjaqdZW3MhlJL4miLerblYwlpq9W",
+-    "TimeoutSeconds": 30,
+-    "CacheDurationMinutes": 60
+-  },
+   "AllowedHosts": "*"
+ }
