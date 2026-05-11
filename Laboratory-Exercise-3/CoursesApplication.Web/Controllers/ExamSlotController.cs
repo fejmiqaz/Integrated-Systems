@@ -1,4 +1,5 @@
 using System.Security.Claims;
+using CoursesApplication.Service.Interface;
 using CoursesApplication.Web.Mapper;
 using CoursesApplication.Web.Request;
 using CoursesApplication.Web.Response;
@@ -11,10 +12,12 @@ namespace CoursesApplication.Web.Controllers;
 public class ExamSlotController : ControllerBase
 {
     private readonly ExamSlotMapper _mapper;
+    private readonly IQuestionSystemClient _questionSystemClient;
 
-    public ExamSlotController(ExamSlotMapper mapper)
+    public ExamSlotController(ExamSlotMapper mapper, IQuestionSystemClient questionSystemClient)
     {
         _mapper = mapper;
+        _questionSystemClient = questionSystemClient;
     }
 
     [HttpGet]
@@ -30,6 +33,9 @@ public class ExamSlotController : ControllerBase
     {
         var response = await _mapper.GetByIdAsync(id);
         if (response is null) return NotFound();
+        
+        // Get the questions
+        response = response with { Questions = await _questionSystemClient.GetFirstFiveQuestionsForAttemptAsync(id) };
         return Ok(response);
     }
 

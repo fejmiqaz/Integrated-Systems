@@ -1,3 +1,4 @@
+using CoursesApplication.Domain.Configuration;
 using CoursesApplication.Domain.Models;
 using CoursesApplication.Repository;
 using CoursesApplication.Repository.Interface;
@@ -8,9 +9,26 @@ using CoursesApplication.Web.Mapper;
 using EventsManagement.Repository.Implementation;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Quartz;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// API Configuration for Lab 4
+builder.Services.Configure<QuestionSystemSettings>(
+    builder.Configuration.GetSection("QuestionSystem"));
+
+builder.Services.AddHttpClient<IQuestionSystemClient, QuestionSystemClient>((sp, client) =>
+{
+    var settings = sp.GetRequiredService<IOptions<QuestionSystemSettings>>().Value;
+
+    client.BaseAddress = new Uri(settings.BaseAddress);
+    client.Timeout = TimeSpan.FromSeconds(settings.TimeoutSeconds);
+
+    client.DefaultRequestHeaders.Add("X-Api-Key", settings.ApiKey);
+
+});
+
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??

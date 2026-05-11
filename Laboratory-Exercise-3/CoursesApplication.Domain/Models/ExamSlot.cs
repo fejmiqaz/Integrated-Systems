@@ -1,4 +1,5 @@
 using CoursesApplication.Domain.Common;
+using CoursesApplication.Domain.Dto;
 
 namespace CoursesApplication.Domain.Models;
 
@@ -13,4 +14,7 @@ public class ExamSlot : BaseAuditableEntity<CoursesApplicationUser>
 
     public Guid SemesterId { get; set; }
     public virtual Semester Semester { get; set; } = null!;
+
+    public List<AttemptQuestionDto> Questions = new List<AttemptQuestionDto>();
+
 }
