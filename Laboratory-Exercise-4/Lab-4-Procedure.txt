@@ -1,0 +1,24 @@
+Part 1 Main Part:
+1. Create configuration directory inside Domain, then create ApiSettings (copy-paste from GitLab)
+2. Create AttemptDto inside the DTOs
+3. Create ExamAttempt model along with the ExamAttemptResponse inside the models
+4. Add the ExamAttempt DbSet inside the AppDbContext
+5. Create the ApiClientService for external api requests, then create the AttemptService for handling the GetById for the external data, along with their interfaces.
+6. Create the AttemptMappingExtension
+7. Create the AttemptMapper
+8. Create the AttemptController
+9. Migrate either with dotnet-ef migrations or with Evolve
+10. Add every dependency injection inside the Program.cs
+
+Part 2 Cache Part:
+1. Go to your service where the Http handling is done, then go to GitLab and find where cache is done in the services. Then usually the caheKey is something like: part-of-the-query:{id}
+2. Inject the builder.Services.AddMemoryCache() in Program.cs
+
+Part 3 Middleware Part:
+1. Create Middlewares folder inside the Web project, create the Middleware class (copy-paste from GitLab)
+2. Go to Program.cs and write app.UseMiddleWare<NameOfYourMiddleware>() under app.UseAuthorization()
+
+Part 4 Rate Limiting Part:
+1. Go to Program.cs in Gitlab, copy-paste the rate limiting part, (also create ApiClients model in domains, also copy-pasting from Gitlab)
+2. Write app.UseRateLimiter() under the app.UseMiddleware in Program.cs
+3. Apply EnableRateLimiting to your endpoint in controller
