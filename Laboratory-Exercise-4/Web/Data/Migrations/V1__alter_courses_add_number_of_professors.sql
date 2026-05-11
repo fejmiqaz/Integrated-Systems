@@ -1,0 +1,1 @@
+alter table Courses add column NumberOfProfessors INTEGER;
